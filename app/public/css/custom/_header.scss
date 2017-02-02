@@ -1,0 +1,87 @@
+// HEADER ROW
+// ++++++++++
+
+// GRID
+.header-content {
+    @include grid-row();
+    
+    nav {
+        @include grid-column(12);
+        padding-bottom: 40px;
+
+            @media #{$medium-up} {
+                @include grid-column(6);
+                padding-bottom: 80px;
+            }
+
+    }
+
+    .header-video {
+        @include grid-column(12);
+
+            @media #{$medium-up} {
+                @include grid-column(6);
+            }
+    }
+
+}
+
+// STYLES
+header {
+    background-color: $primary-color;
+    min-height: 300px;
+
+    @media #{$medium-up} {
+        min-height: 450px;
+    }
+}
+
+.logo {
+    fill: $white;
+    margin: 50px 0;
+}
+
+h1 {
+    color: $white;
+    font-family: $secondary-font-b;
+    font-size: 1.938rem;
+    font-weight: 800;
+    padding: 0;
+
+    @media #{$medium-up} {
+        font-size: 3.125rem;
+    }
+
+    span {
+        color: $accent-color;
+    }
+}
+
+header p {
+    color: $white;
+    font-family: $secondary-font-r;
+    font-size: 26px;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+
+
+    @media #{$medium-up} {
+        line-height: 1.4em;
+        font-size: 32px;
+    }
+}
+
+.play-button {
+    display: inline-block;
+    margin: 50px 0 0;
+}
+
+.header-video {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    @media #{$medium-up} {
+        margin-top: 160px;
+    }
+}

@@ -1,0 +1,92 @@
+// IMAGE STRIP
+// +++++++++++
+
+.image-strip {
+    margin-bottom: 50px;
+    background-color: $tertiary-color;
+
+    .image-strip-row {
+        @include grid-row();
+
+        .image-container {
+            @include grid-column(12);
+            position: relative;
+            padding-top: 60px;
+            overflow: hidden;
+
+            @media #{$medium-up} {
+                @include grid-column(6);
+                padding-top: 0;
+                padding-right: 0;
+            }
+
+            .imagediv {
+                height: 100%;
+                min-height: 320px; // adjust relative to copy @medium!
+                position:relative;
+                background:   url("../images/wp-image.jpg")no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        .image-container:after {
+        
+            @media #{$medium-up} {
+                background-color: $tertiary-color;
+                content: "";
+                height: 110%;
+                position: absolute;
+                top: 0;
+                width: 20%;
+                right: 0;
+                transform: translateX(100%) rotate(10deg);
+                transform-origin: left top 0;
+            }
+        }
+
+        .copy-container {
+            @include grid-column(12);
+            position: relative;
+
+            @media #{$medium-up} {
+                @include grid-column(6);
+            }
+
+            .copy-content { // horrible vertical centering business
+                padding-left: 20px;
+                padding: 20px 20px 30px;
+
+                @media #{$medium-up} {
+                    padding-top: 10px;
+                    padding-bottom: 0;
+                }
+
+                @media #{$large-up} {
+                    padding-top: 60px;
+                    padding-bottom: 0;
+                }
+            }
+
+            h2 {
+                color: $secondary-color;
+                font-family: $secondary-font-b;
+                font-size: 24px;
+                line-height: 1;
+                padding: 20px 0;
+                margin: 0;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-family: $secondary-font-r;
+                font-size: 16px;
+                line-height: 1.3;
+            }
+        }
+    }
+}
+
+.image-strip:lang(de) .image-strip-row .copy-container .copy-content {
+    padding-top: 30px;
+}

@@ -1,0 +1,37 @@
+// WEB FONTS
+// +++++++++
+@font-face {
+font-family: 'Brandon-Grotesque-Bold';
+        src:url("../fonts/Brandon-Grotesque-Bold.eot?#iefix") format("eot"), 
+            url("../fonts/Brandon-Grotesque-Bold.woff2") format("woff2"),
+            url("../fonts/Brandon-Grotesque-Bold.woff") format("woff"),
+            url("../fonts/Brandon-Grotesque-Bold.ttf") format("truetype"),
+            url("../fonts/Brandon-Grotesque-Bold.svg#svgFontName") format("svg");
+}
+
+@font-face {
+font-family: 'Brandon-Grotesque-Reg';
+        src:url("../fonts/Brandon-Grotesque-Reg.eot?#iefix") format("eot"), 
+            url("../fonts/Brandon-Grotesque-Reg.woff2") format("woff2"),
+            url("../fonts/Brandon-Grotesque-Reg.woff") format("woff"),
+            url("../fonts/Brandon-Grotesque-Reg.ttf") format("truetype"),
+            url("../fonts/Brandon-Grotesque-Reg.svg#svgFontName") format("svg");
+}
+
+@font-face {
+font-family: 'Source-Sans-Pro-Reg';
+        src:url("../fonts/sourcesanspro-regular.eot?#iefix") format("eot"), 
+            url("../fonts/sourcesanspro-regular.woff2") format("woff2"),
+            url("../fonts/sourcesanspro-regular.woff") format("woff"),
+            url("../fonts/sourcesanspro-regular.ttf") format("truetype"),
+            url("../fonts/sourcesanspro-regular.svg#svgFontName") format("svg");
+}
+
+@font-face {
+font-family: 'Source-Sans-Pro-SemiBold';
+        src:url("../fonts/sourcesanspro-semibold.eot?#iefix") format("eot"), 
+            url("../fonts/sourcesanspro-semibold.woff2") format("woff2"),
+            url("../fonts/sourcesanspro-semibold.woff") format("woff"),
+            url("../fonts/sourcesanspro-semibold.ttf") format("truetype"),
+            url("../fonts/sourcesanspro-semibold.svg#svgFontName") format("svg");
+}

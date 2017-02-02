@@ -1,0 +1,53 @@
+// SIGNUP
+// ++++++
+
+.sign-up {
+    background-color: $tertiary-color;
+    padding: 70px 0;
+    
+    @media #{$medium-up} {
+        padding: 110px 0 130px;
+    }
+
+    .sign-up-content {
+        @include grid-row();
+
+        .sign-up-content-inner {
+            @include grid-column(12);
+            text-align: center;
+
+            h2 {
+                font-family: $secondary-font-b;
+                font-size: 24px;
+                margin:0 0 20px;
+                text-transform: uppercase;
+
+                @media #{$large-up} {
+                    font-size: 28px;
+                }
+            }
+
+            p {
+                font-family: $primary-font-r;
+                font-size: 16px;
+                line-height: 1.4;
+
+                @media #{$large-up} {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .newsletter-form {
+        border: 0 none;
+        height: 199px;
+        width: 100%;
+        
+        -webkit-transition: height 0.1s; 
+        -moz-transition: height 0.1s; 
+        -ms-transition: height 0.1s; 
+        -o-transition: height 0.1s; 
+        transition: height 0.1s;  
+    }
+}

@@ -1,0 +1,47 @@
+// ++++++++++++++++
+// IMPORT FRAMEWORK
+// ++++++++++++++++
+@import "foundation/foundation.scss";
+
+// +++++++++++++
+// LOCAL IMPORTS
+// +++++++++++++
+@import "custom/fonts"; //imports
+@import "custom/utilities"; // generic
+@import "custom/variables"; // declare first
+@import "custom/header"; // module
+@import "custom/about"; // module
+//@import "custom/image-strip"; // module
+//@import "custom/threesixty"; // module
+@import "custom/signup"; // module
+@import "custom/footer"; // module
+// @import "custom/shame"; // crap to be refactored later..
+
+// ++++++++++++++++++
+// GENERIC BODY RULES
+// ++++++++++++++++++
+body {
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    color: $primary-color;
+    font-family: $primary-font-r;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+// FOUNDATION MODAL WINDOW OVERRIDES
+.reveal-modal-bg { // darken tint
+    background: rgba(0,0,0,0.75); 
+}
+
+.reveal-modal { // make panel transparent
+    background: none;
+    border: 0;
+    box-shadow: none;
+}
+
+.reveal-modal .close-reveal-modal { // move close button up to top right edge
+    top: 0;
+    right: 0;
+}

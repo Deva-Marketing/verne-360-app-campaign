@@ -1,0 +1,134 @@
+// ABOUT ROW
+// +++++++++
+
+// GRID
+main {
+
+    // main nested
+    .about-us {
+        @include grid-row();
+
+        // about-us nested
+        .about-content {
+            @include grid-column(12);
+
+            @media #{$medium-up} {
+                @include grid-column(6);
+            }
+        }
+
+        // about-us nested
+        .about-form {
+            @include grid-column(12);
+
+            @media #{$medium-up} {
+                @include grid-column(6);
+            }
+        }
+    }
+}
+
+// STYLES
+.about-us {
+
+    .about-content, .about-form {
+        padding-top: 25px;
+
+        @media #{$medium-up} {
+            padding-top: 50px;
+        }
+    }
+
+    h2 {
+        color: $primary-color;
+        font-family: $primary-font-r;
+        font-size: 22px;
+        line-height: 1.5;
+        margin: 20px 0;
+        padding: 0;
+        padding-right: 20px;
+    }
+
+    p {
+        color: $primary-color;
+        font-family: $primary-font-r;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 0 40px;
+        padding-right: 20px;
+
+        body.report & { margin: 0 0 20px; } // variant for report page using hero-list
+        body.thanks & { margin: 0 0 20px; } // variant for thanks page using no further content
+
+        @media #{$large-up} {
+            font-size: 19px;
+        }
+
+    }
+
+    a {
+        color: $primary-color;
+    }
+
+    // FORM STYLES
+    iframe {
+        border: 0;
+    }
+
+    iframe.pardot-form { // only applies to UK (DE uses id)
+        width: 100%;
+        min-height: 850px;
+        border: 0;
+    }
+
+    iframe#pardot-form {
+        border: 0;
+        min-height: 1280px;
+        width: 100%;
+        
+        @media #{$medium-up} {
+            min-height: 1500px;
+        }
+
+        @media #{$large-up} {
+            min-height: 1280px;
+        }
+    }
+
+    .about-form-inner {
+        padding: 20px 0.937rem;
+
+        input {
+            border: 1px solid $tertiary-color;
+            display: block;
+            margin: 18px 0;
+            padding: 14px 20px;
+            width: 100%;
+        }
+
+        input.error {
+            border: 1px solid red;
+        }
+
+        button, .button, input[type=button] {
+            background-color: $secondary-color;
+            border: 0;
+            color: $white;
+            font-family: $primary-font-b;
+            font-size: 18px;
+            padding: 10px 20px;
+            transition: opacity 0.3s ease 0s;
+            width: 100%;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+
+        .button {
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}

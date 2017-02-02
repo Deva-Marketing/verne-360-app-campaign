@@ -1,0 +1,45 @@
+// UTILITIES - basic helper classes
+// ++++++++++++++++++++++++++++++++
+
+.hidden {
+  display: none; // content is invisible to all
+}
+
+// content is invisible on screen [with css enabled] but remains visible to screen readers
+// use whereever we have icons replacing text in links
+.screen-hidden { 
+    height:1px;
+    left:-10000px;
+    overflow:hidden;
+    position:absolute;
+    top:auto;
+    width:1px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+// disables Foundation auto image scaling
+img.no-resize { 
+  max-width: none;
+}
+
+// resets foundation rules
+h1, h2, h3, p {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}

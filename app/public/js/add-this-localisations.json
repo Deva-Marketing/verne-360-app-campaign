@@ -1,0 +1,56 @@
+{
+    "en-GB": {
+        "uiLanguage": "en",
+        "url": "https://websitesecurity.symantec.com/uk/always-on-ssl/social",
+        "title": "Symantec™ | Top 8 Reasons To Adopt Always-On SSL",
+        "description": "Discover why using SSL/TLS across your entire website is more critical to your business than ever before."
+    },
+    "en": {
+        "uiLanguage": "en",
+        "url": "https://websitesecurity.symantec.com/ch/always-on-ssl/int",
+        "title": "Symantec™ | Top 8 Reasons To Adopt Always-On SSL",
+        "description": "Discover why using SSL/TLS across your entire website is more critical to your business than ever before."
+    },
+    "en-US": {
+        "uiLanguage": "en",
+        "url": "https://websitesecurity.symantec.com/us/always-on-ssl/int",
+        "title": "Symantec™ | Top 8 Reasons To Adopt Always-On SSL",
+        "description": "Discover why using SSL/TLS across your entire website is more critical to your business than ever before."
+    },
+    "fr": {
+        "uiLanguage": "fr",
+        "url": "https://websitesecurity.symantec.com/fr/always-on-ssl/int",
+        "title": "Symantec™ | 8 bonnes raisons d’adopter Always-On SSL",
+        "description": " La protection SSL/TLS de l’ensemble de votre site constitue un enjeu plus critique que jamais pour votre activité. "
+    },
+    "es": {
+        "uiLanguage": "es",
+        "url": "https://websitesecurity.symantec.com/es/always-on-ssl/int",
+        "title": "Symantec™ | Los 8 motivos principales para adoptar la tecnología SSL Always-On",
+        "description": "Descubra por qué proteger la totalidad de su sitio web con SSL/TLS es más importante que nunca."
+    },
+    "es-419": {
+        "uiLanguage": "es",
+        "url": "https://websitesecurity.symantec.com/cala/always-on-ssl/int",
+        "title": "Symantec™ | Los 8 motivos principales para adoptar la tecnología SSL Always-On",
+        "description": "Descubra por qué proteger la totalidad de su sitio web con SSL/TLS es más importante que nunca."
+    },
+    "de": {
+        "uiLanguage": "de",
+        "url": "https://websitesecurity.symantec.com/de/always-on-ssl/int",
+        "title": "Symantec™ | 8 Gründe, die für Always-On SSL sprechen",
+        "description": "Erfahren Sie, warum der Schutz Ihrer gesamten Website mit SSL/TLS heute wichtiger ist als je zuvor. Holen Sie sich den Symantec-Leitfaden „8 Gründe, die für Always-On SSL sprechen“."
+    },
+    "it": {
+        "uiLanguage": "it",
+        "url": "https://websitesecurity.symantec.com/it/always-on-ssl/int",
+        "title": "Symantec™ | Gli 8 motivi principali per adottare Always-On SSL",
+        "description": "Scopri perché l'utilizzo di SSL/TLS nell'intero sito Web è più importante che mai per la tua impresa."
+    },
+    "pt-BR": {
+        "uiLanguage": "es",
+        "url": "https://websitesecurity.symantec.com/ptbr/always-on-ssl/int",
+        "title": "Symantec™ | Os 8 principais motivos para adotar o Always-On SSL",
+        "description": "Descubra por que usar o SSL/TLS em todo o seu site é mais crítico do que nunca para os seus negócios."
+    }
+}
